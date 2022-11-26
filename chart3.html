@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target v/s Achievement</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+    
+<span id='colchart_diff' style='width: 1000px; height: 450px; display: inline-block; margin-top: 10%;'></span>
+
+
+
+<script>
+     google.charts.load('current', {packages:['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+   
+  function drawChart() {
+    var oldData = google.visualization.arrayToDataTable([
+      ['Period', 'Targets'],
+      ['Q1', 12],
+      ['Q2', 4],
+      ['Q3', 10],
+      ['Q4', 3]
+    ]);
+
+    var newData = google.visualization.arrayToDataTable([
+      ['Period', 'Targets'],
+      ['Q1', 3],
+      ['Q2', 17],
+      ['Q3', 18],
+      ['Q4', 4]
+    ]);
+
+
+    var colChartDiff = new google.visualization.ColumnChart(document.getElementById('colchart_diff'));
+
+
+    var options = {
+    legend: { position: 'top' } ,
+    diff: { newData: { widthFactor: 0.5 } }
+     
+    };
+
+    var diffData = colChartDiff.computeDiff(newData, oldData);
+    colChartDiff.draw(diffData, options);
+
+  }
+
+
+</script>
+
+
+
+
+</body>
+</html>

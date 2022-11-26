@@ -1,0 +1,72 @@
+body, html{
+  background: #f2f6f9 !important;
+}
+section{
+  background-color: #fff;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-radius: 20px;
+  padding: 5px 20px 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.modal-header{
+  padding: 10px !important;
+  background-color: #3e3b92;
+  color: #fff;
+}
+p{
+font-size: 20px;
+font-weight: 500;
+}
+
+.client-add{
+  border-bottom:3px solid #3e3b92;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #888;
+  width: 100px;
+  height: 37px;
+  background-color: #fff;
+ 
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+table{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  font-size: 14px;
+}
+th{
+  background-color: #005f73 !important;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.ccp{
+  font-weight: 500;
+  color: #3c096c;
+}
+.pending{
+  font-weight: 500;
+  color: #a4161a;
+}
+.onboarding{
+  font-weight: 500;
+  color: #ff7b00;
+
+}
+.rejected{
+  font-weight: 500;
+color: #ba181b;
+}
+.on-board{
+  font-weight: 500;
+  color: #006400;
+}
+a{
+
+  color: #3c096c !important;
+  font-weight: 600;
+}
