@@ -28,7 +28,21 @@ font-weight: 500;
   border-radius: 4px;
   font-size: 16px;
   color: #888;
-  width: 100px;
+  width: 150px;
+  height: 37px;
+  background-color: #fff;
+ 
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.client-add1{
+  border-bottom:3px solid #0c681b;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #888;
+  width: 150px;
   height: 37px;
   background-color: #fff;
  
